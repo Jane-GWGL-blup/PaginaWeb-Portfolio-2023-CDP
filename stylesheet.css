@@ -12,13 +12,12 @@ body{
 
 
 .header{
-
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 5px 10%;
-    background: rgb(0, 26, 73);
+    padding: 5px 10% 0 5%;
+    background: #001a49;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,6 +77,10 @@ body{
     display: flex;
     align-items: center;
     padding: 25px 5% 0;
+    border-radius: 0 0 100px 0;
+
+    
+
 }
 
 
@@ -88,6 +91,7 @@ body{
     display: flex;
 
 }
+
 
 .home-content h3{
     font-size: 2.7vw;
@@ -128,6 +132,7 @@ body{
     color: var(--main-color);
     text-decoration: none;
     margin: 30px 15px 30px 0;
+
 }
 
 .home-scl a:hover{
@@ -203,13 +208,12 @@ body{
     }
 }
 
-
         /* *********************/
         /* seccion S O B R E  M I */
         /* *********************/
         
         #sobremi {
-            max-width: 1100px;
+            max-width: 90%;
             margin: auto;
             padding: 100px 15px;
             color: #111135;
@@ -230,18 +234,26 @@ body{
         
 
 .datos-personales{
+    width: 100%;
     background-color: #239292;
     padding: 4%;
     border-radius: 10px;
     
 }
+
 .datos-personales:hover {
     box-shadow: 0 0 5px #00d4ff,
     0 0 15px #654495, 0 0 25px #654495,
    0 0 35px #654495, 0 0 45px #00d4ff;
 }
 
+.dt{
+    color:white;
+    font-weight: 600;
+}
+
 .sub-datos{
+   
     color: white;  
     font-weight: 600;
     background: transparent;  
@@ -250,6 +262,7 @@ body{
 
 
 .info-datos{
+    width: 100%;
     color: white;   
 }
 
@@ -310,7 +323,7 @@ body{
 
         .contenedor-datos{
             margin-top: 10px;
-            width: 1000px;
+            width: 100%;
         }
 
 
